@@ -7,7 +7,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
-  <link href="assets/css/style.css" rel="stylesheets">
+  <link href="assets/css/index.css" rel="stylesheet">
+  <link href="assets/css/partials/header.css" rel="stylesheet">
+  <link href="assets/css/partials/footer.css" rel="stylesheet">
 
   <title>Document</title>
 
@@ -15,23 +17,64 @@
 <body>
   <div class="container">
     <header>
-      <div class="navbar">
-        <div>
-          <a>
-            <img>
+      <div class="nav-bar">
+        <div class="logo-container">
+          <a href="#">
+            <img src="./assets/img/logo.png" alt="PrimeLocation">
           </a>
         </div>
-        <div class="header-buttons">
-          <a href=""><img src="" alt=""><p>SCHOOLS</p></a>
-          <a href=""><img src="" alt=""><p>ABOUT</p></a>
-          <a href=""><img src="" alt=""><p>BLOG</p></a>
-          <a href=""><img src="" alt=""><p>MORE...</p></a>
+        <div class="button-container">
+          <div>
+            <a class="h-button" href=""><img src="./assets/img/lupa-white.png" alt="Magnifying Glass"><p class="h-text">HOUSES</p></a>
+            <a class="h-button" href=""><img src="./assets/img/user-white.png" alt="User"><p class="h-text">ABOUT</p></a>
+            <a class="h-button" href=""><img src="./assets/img/wifi-white.png" alt="Wifi"><p class="h-text">BLOG</p></a>
+            <a class="h-button" href=""><img src="./assets/img/menu-white.png" alt="Menu"><p class="h-text">MORE...</p></a>
+          </div>
         </div>
       </div>
     </header>
 
     <main>
-      <div>
+      <div class="main-container">
+        <div class="search-container">
+          <img class="main-image" src="assets/img/girl-map.jpg" alt="Background Image">
+
+          <div class="input-container">
+            <p class="main-text">Prime<span style="color:black">Location</span>... YOUR GATEWAY TO HOUSES ANYWHERE.</p>
+            <div class="main-inputs">
+              <div class="input-wrapper">
+                <label for="bar">SEARCH BY KEY WORD</label>
+                <input class="input" type="text" id="bar" autocomplete="off">
+              </div>
+              <button class="search-button" type="submit">SEARCH</button>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="sub-title">Prime<span>Location</span> WORKS IN FOUR SIMPLE STEPS</h3>
+        <div class="grid-system">
+          <div class="item">
+            <img src="assets/img/landing-page.svg" width="40">
+            <h4>1- SEARCH:</h4>
+            <p>It's simple. On Prime<span>Location</span> homepage, enter the name of a city you are looking for and click on search. Alternatively click on the search link on the top menu to view the list of cities.</p>
+          </div>
+          <div class="item">
+            <img src="assets/img/landing-page.svg" width="40">
+            <h4>2- LOCATE:</h4>
+            <p>It's simple. On Prime<span>Location</span> homepage, enter the name of a city you are looking for and click on search. Alternatively click on the search link on the top menu to view the list of cities.</p>
+          </div>
+          <div class="item">
+            <img src="assets/img/landing-page.svg" width="40">
+            <h4>3- APPLY:</h4>
+            <p>It's simple. On Prime<span>Location</span> homepage, enter the name of a city you are looking for and click on search. Alternatively click on the search link on the top menu to view the list of cities.</p>
+          </div>
+          <div class="item">
+            <img src="assets/img/landing-page.svg" width="40">
+            <h4>4- RELAX:</h4>
+            <p>It's simple. On Prime<span>Location</span> homepage, enter the name of a city you are looking for and click on search. Alternatively click on the search link on the top menu to view the list of cities.</p>
+          </div>
+        </div>
+
         <div></div>
       </div>
 
