@@ -1,0 +1,19 @@
+:root {
+  --background-color: #fff;
+  --primary-color: ;
+  --secondary-color: ;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Tablet version */
+@media only screen and (min-width: 768px) {
+  
+}
+
+/* Desktop version */
+@media only screen and (min-width: 1024px) {
+
+}
