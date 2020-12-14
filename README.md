@@ -6,13 +6,12 @@
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+<!-- Additional description about the project and its features. -->
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
 
 ## Live Demo
 
@@ -43,23 +42,17 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Luis Vinicius**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub: [@luisvinicius09](https://github.com/luisvinicius09)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/luis-vinicius)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/luisvinicius09/capstone-one/issues).
 
 ## Show your support
 
@@ -70,7 +63,3 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
