@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# PrimeLocation captone project.
+# PrimeLocation (Captone Project)
 
 > This is the capstone project for the html & CSS module, which is based on a directory of schools.
 
