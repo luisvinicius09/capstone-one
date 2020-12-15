@@ -76,6 +76,11 @@
   background-color: var(--secondary-color);
 }
 
+.button-wrapper button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 .essential-wrapper {
   font-weight: bold;
   margin-bottom: 10px;
