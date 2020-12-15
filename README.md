@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# PrimeLocation captone project.
+# PrimeLocation (Captone Project)
 
 > This is the capstone project for the html & CSS module, which is based on a directory of schools.
 
@@ -54,7 +54,7 @@ Run StyleLint
 👤 **Luis Vinicius**
 
 - GitHub: [@luisvinicius09](https://github.com/luisvinicius09)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- Twitter: [@luisvinicius09](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/luis-vinicius)
 
 ## 🤝 Contributing
