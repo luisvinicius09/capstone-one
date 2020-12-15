@@ -1,8 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>
+    function initMap() {
+      const uluru = { lat: 40.668392363672986, lng: -73.82179805638552 };
+      const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 10,
+        center: uluru,
+      });
+      const marker = new google.maps.Marker({
+        position: uluru,
+        map: map,
+      });
+    }
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASPQgv2Jw2ayLE4riqpOQpInzfNhqhFe0&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -19,7 +38,7 @@
     <header>
       <div class="header-bar">
         <div class="logo-container">
-          <a href="#">
+          <a href="../index.html">
             <img src="./../assets/img/logo.png" alt="PrimeLocation">
           </a>
         </div>
@@ -36,6 +55,55 @@
 
     <main>
 
+      <div class="card-container">
+
+
+        <div class="title-wrapper d-flex">
+          <img src="../assets/img/logo-icon-black.png" alt="Logo" width="30">
+          <p>ST. PETER</p>
+        </div>
+        <div class="info-wrapper">
+          <div class="image-wrapper">
+            <img src="../assets/img/house-one.jpg" alt="House">
+          </div>
+          <div class="d-flex sp-btwen details-wrapper">
+            <div class="f-info">
+              <p>CITY: <span>NEW YORK</span></p>
+              <p>TYPE: <span>HOUSE</span></p>
+              <p>PERSON: <span>5</span></p>
+              <p>STREET: <span>ST. 54, N° 20</span></p>
+            </div>
+            <div class="s-info">
+              <p>STATE: <span>NEW YORK</span></p>
+              <p>COUNTRY: <span>US</span></p>
+              <p>EMAIL: <span>HOUSE@EMAIL.COM</span></p>
+              <p>REPUTATION: <span>5.6/6</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="button-wrapper d-flex">
+          <button type="submit">APPLY</button>
+        </div>
+        <div class="essential-wrapper">
+          <a><img src="../assets/img/phone-call.png" alt="Phone" width="20">TELL: <span>## ### ###</span></a>
+          <a class="special"><img src="../assets/img/bus.png" alt="Bus" width="20">TRANSPORT: <span>YES</span></a>
+          <a><img src="../assets/img/global.png" alt="World" width="20">WEBSITE: <span>ST.COM</span></a>
+        </div>
+
+        <div class="detail-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere incidunt ab, blanditiis voluptas exercitationem, recusandae dolores, eos odio soluta dignissimos adipisci nulla nisi esse? Accusantium similique obcaecati molestias accusamus sunt commodi in, asperiores est dolore ad repellat. In consectetur obcaecati, possimus, dolorem, et impedit error a est atque perferendis unde?</p>
+        </div>
+      </div>
+
+      <div class="directions-title">
+        <img src="../assets/img/bussola.png" alt="Compass" width="50">
+        <h1>DIRECTIONS</h1>
+      </div>
+
+      <!--The div element for the map -->
+      <div id="map"></div>
+
     </main>
 
     <footer>
@@ -48,9 +116,9 @@
             <a href="#">ABOUT US</a>
             <a href="#">ADVERTISE</a>
           </div>
-          <div class="footer-logo">
+          <!-- <div class="footer-logo">
             <img src="./../assets/img/logo-icon-white.png" alt="Placeholder">
-          </div>
+          </div> -->
           <div class="footer-buttons">
             <a href="#">FACEBOOK</a>
             <a href="#">TWITTER</a>

@@ -8,11 +8,150 @@
   font-family: 'Roboto', sans-serif;
 }
 
+#map {
+  height: 400px;
+  width: 80%;
+  margin: 0 auto 30px auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.sp-btwen {
+  justify-content: space-between;
+}
+
+.title-wrapper {
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.title-wrapper p{
+  margin-left: 5px;
+  font-size: 25px;
+  color: var(--primary-color);
+  font-weight: bolder;
+}
+
+.image-wrapper img {
+  width: 100%;
+}
+
+.card-container {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid grey;
+}
+
+.f-info,
+.s-info {
+  margin-top: 25px;
+}
+
+.f-info p,
+.s-info p {
+  font-weight: bold;
+}
+
+.f-info span,
+.s-info span,
+.essential-wrapper span  {
+  color: var(--primary-color)
+}
+
+.button-wrapper {
+  margin: 20px 0 20px 0;
+  justify-content: center;
+}
+
+.button-wrapper button {
+  width: 200px;
+  padding: 12px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  background-color: var(--secondary-color);
+}
+
+.essential-wrapper {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.essential-wrapper a {
+  margin-left: 6px;
+  margin-bottom: 10px;
+}
+
+.essential-wrapper img {
+  position: relative;
+  top: 3px;
+  right: 3px;
+}
+
+.special {
+  position: relative;
+  top: -3px;
+}
+
+.detail-text {
+  text-align: center;
+}
+
+.directions-title {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  color: var(--primary-color);
+  font-weight: bold;
+  align-items: center;
+}
+
+.directions-title img {
+  margin-right: 10px;
+}
 
 
 /* Tablet version */
 @media only screen and (min-width: 768px) {
+  #map {
+    height: 400px;
+    width: 50%;
+    margin: 0 auto 30px auto;
+  }
 
+  .card-container {
+    max-width: 550px;
+    margin: 30px auto 30px auto;
+  }
+
+  .image-wrapper {
+    width: 350px;
+    height: auto;
+    margin: auto;
+  }
+
+  .essential-wrapper {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .essential-wrapper a {
+    margin-right: 5px;
+  }
+
+  .details-wrapper{
+    max-width: 500px;
+    margin: auto;
+
+  }
 }
 
 /* Desktop version */
