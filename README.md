@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# PrimeLocation captone project.
 
-> One paragraph statement about the project.
+> This is the capstone project for the html & CSS module, which is based on a directory of schools.
 
 ![screenshot](./app_screenshot.png)
 
@@ -28,16 +28,25 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
+Text editor.
+Browser.
 
 ### Install
 
+Donwload the node_modules folder.
+`npm install`
+
 ### Usage
+
+Open the index file on a browser.
 
 ### Run tests
 
-### Deployment
+Run LightHouse
+`npx hint .`
 
+Run StyleLint
+`npx stylelint "**/*.{css,scss}"`
 
 
 ## Authors
@@ -57,9 +66,3 @@ Feel free to check the [issues page](https://github.com/luisvinicius09/capstone-
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
