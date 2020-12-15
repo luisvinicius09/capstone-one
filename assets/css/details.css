@@ -28,7 +28,7 @@
   margin: 10px;
 }
 
-.title-wrapper p{
+.title-wrapper p {
   margin-left: 5px;
   font-size: 25px;
   color: var(--primary-color);
@@ -57,8 +57,8 @@
 
 .f-info span,
 .s-info span,
-.essential-wrapper span  {
-  color: var(--primary-color)
+.essential-wrapper span {
+  color: var(--primary-color);
 }
 
 .button-wrapper {
@@ -123,7 +123,6 @@
   margin-right: 10px;
 }
 
-
 /* Tablet version */
 @media only screen and (min-width: 768px) {
   #map {
@@ -152,14 +151,8 @@
     margin-right: 5px;
   }
 
-  .details-wrapper{
+  .details-wrapper {
     max-width: 500px;
     margin: auto;
-
   }
-}
-
-/* Desktop version */
-@media only screen and (min-width: 1024px) {
-
 }
