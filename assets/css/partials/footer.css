@@ -5,13 +5,18 @@
   --secondary-color: #1fbbed;
 }
 
+.footer-container,
+.footer-container h4,
+.footer-buttons a,
+.footer-submit {
+  color: var(--background-color);
+}
+
 .footer-container {
   background-color: var(--background-two);
-  color: #fff;
 }
 
 .footer-container h4 {
-  color: var(--background-color);
   margin-bottom: 10px;
 }
 
@@ -30,7 +35,6 @@
 
 .footer-buttons a {
   text-decoration: none;
-  color: var(--background-color);
 }
 
 .footer-logo {
@@ -53,7 +57,6 @@
 }
 
 .subs-wrapper {
-  text-align: center;
   padding: 10px;
   max-width: 420px;
   margin-left: auto;
@@ -72,11 +75,9 @@
   padding: 10px;
   border: none;
   background-color: rgb(128, 128, 128, 1);
-  color: #fff;
 }
 
 .contact-wrapper {
-  text-align: center;
   padding: 10px;
   max-width: 420px;
   margin-left: auto;
@@ -89,7 +90,6 @@
 }
 
 .about-wrapper {
-  text-align: center;
   padding: 15px;
   max-width: 420px;
   margin-left: auto;
@@ -106,16 +106,16 @@
   padding: 20px 0 50px 0;
 }
 
-.footer-icons {
+.footer-icons,
+.footer-text,
+.about-wrapper,
+.contact-wrapper,
+.subs-wrapper {
   text-align: center;
 }
 
 .footer-icons img {
   width: 30px;
-}
-
-.footer-text {
-  text-align: center;
 }
 
 /* Tablet version */

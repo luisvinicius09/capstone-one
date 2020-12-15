@@ -20,13 +20,16 @@
   width: 100%;
 }
 
-.button-container div {
+.button-container div,
+.h-button {
   display: flex;
+}
+
+.button-container div {
   justify-content: center;
 }
 
 .h-button {
-  display: flex;
   align-items: center;
   text-decoration: none;
   color: var(--background-color);

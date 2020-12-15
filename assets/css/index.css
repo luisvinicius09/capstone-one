@@ -19,20 +19,23 @@ body {
   object-fit: cover;
 }
 
+.main-image,
 .search-container {
   height: 80vh;
+}
+
+.search-container,
+.input-container  {
   position: relative;
 }
 
 .main-image {
   width: 100%;
-  height: 80vh;
   object-fit: cover;
   position: absolute;
 }
 
 .input-container {
-  position: relative;
   z-index: 2;
   padding: 20px;
   margin-left: auto;
@@ -44,31 +47,41 @@ body {
 .main-text {
   color: #fff;
   font-weight: 700;
-  text-align: center;
   margin-bottom: 10px;
 }
 
-.main-inputs {
+.main-text,
+.search-button,
+.sub-title,
+.item,
+.row-content {
+  text-align: center;
+}
+
+.main-inputs,
+.main-extra-button,
+.input-wrapper {
   display: flex;
+}
+
+.main-inputs,
+.input-wrapper {
   flex-direction: column;
+}
+
+.main-inputs {
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
 }
 
 .main-extra-button {
-  display: flex;
   justify-content: center;
   margin-top: 20px;
 }
 
 .main-extra-button button {
   padding: 10px;
-}
-
-.input-wrapper {
-  display: flex;
-  flex-direction: column;
 }
 
 .input-wrapper label {
@@ -89,7 +102,6 @@ body {
   margin-top: 5px;
   padding: 5px 0 5px 0;
   border-radius: 3px;
-  text-align: center;
 }
 
 .search-button:hover {
@@ -98,7 +110,6 @@ body {
 }
 
 .sub-title {
-  text-align: center;
   color: var(--primary-color);
   margin: 30px 0 30px 0;
   font-weight: bolder;
@@ -109,7 +120,6 @@ body {
 }
 
 .item {
-  text-align: center;
   padding: 20px;
   margin-bottom: 30px;
   max-width: 500px;
@@ -131,7 +141,6 @@ body {
 }
 
 .row-content {
-  text-align: center;
   color: #fff;
   padding: 30px;
   padding-left: 60px;
