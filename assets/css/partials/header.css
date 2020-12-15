@@ -20,7 +20,7 @@
   width: 100%;
 }
 
-.button-container div{
+.button-container div {
   display: flex;
   justify-content: center;
 }
@@ -30,7 +30,7 @@
   align-items: center;
   text-decoration: none;
   color: var(--background-color);
-  padding: 0px 5px 5px 20px;
+  padding: 0 5px 5px 20px;
 }
 
 .h-button img {
@@ -40,6 +40,8 @@
 
 .h-text {
   display: none;
+  font-weight: bold;
+  margin-left: 5px;
 }
 
 /* Tablet version */
@@ -52,7 +54,7 @@
 
   .h-text {
     display: inline;
-  }  
+  }
 
   .logo-container {
     margin: 0;
@@ -66,5 +68,4 @@
 
 /* Desktop version */
 @media only screen and (min-width: 1024px) {
-
 }

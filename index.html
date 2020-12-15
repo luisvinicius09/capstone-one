@@ -7,11 +7,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
-  <link href="assets/css/index.css" rel="stylesheet">
-  <link href="assets/css/partials/header.css" rel="stylesheet">
-  <link href="assets/css/partials/footer.css" rel="stylesheet">
-
-
+  <link href="./assets/css/index.css" rel="stylesheet">
+  <link href="./assets/css/partials/header.css" rel="stylesheet">
+  <link href="./assets/css/partials/footer.css" rel="stylesheet">
+  <link href="../assets/css/reset.css" rel="stylesheet">
 
   <title>PrimeLocation</title>
 
@@ -44,15 +43,19 @@
           </div>
 
           <div class="input-container">
-            <p class="main-text">Prime<span style="color:black">Location</span>... YOUR GATEWAY TO HOUSES ANYWHERE.</p>
+            <p class="main-text">PRIMELOCATION... YOUR GATEWAY TO HOUSES ANYWHERE.</p>
             <div class="main-inputs">
               <div class="input-wrapper">
                 <label for="bar">SEARCH BY KEY WORD</label>
                 <input class="input" type="text" id="bar" autocomplete="off">
               </div>
-              <button class="search-button" type="submit">SEARCH</button>
+              <a class="search-button" href="./views/results.html">SEARCH</a>
+            </div>
+            <div class="main-extra-button">
+              <button type="submit">How it works</button> 
             </div>
           </div>
+
         </div>
 
         <h3 class="sub-title">Prime<span>Location</span> WORKS IN FOUR SIMPLE STEPS</h3>
@@ -60,28 +63,28 @@
           <article>
 
             <div class="item">
-              <img src="./assets/img/landing-page.svg" width="40">
+              <img src="./assets/img/landing-page.svg" alt="Icon" width="40">
               <h4>1- SEARCH:</h4>
               <p>It's simple. On Prime<span>Location</span> homepage, enter the name of a city you are looking for and click on search. Alternatively click on the search link on the top menu to view the list of cities.</p>
             </div>
           </article>
           <article>
             <div class="item">
-            <img src="./assets/img/businessman-paper-of-the-application-for-a-job.svg" width="40">
+            <img src="./assets/img/businessman-paper-of-the-application-for-a-job.svg" alt="Icon" width="40">
             <h4>2- LOCATE:</h4>
               <p>Apply for your family to the house of your choice. Ckick on the APPLY button to get the appliction form. We also follow up on the application to make sure you get a reply on time.</p>
             </div>
           </article>
           <article>
             <div class="item">
-              <img src="./assets/img/landing-page.svg" width="40">
+              <img src="./assets/img/landing-page.svg" alt="Icon" width="40">
               <h4>3- APPLY:</h4>
               <p>Get to see where the house is located by clicking on the house profile. It's even more exciting. You can get the directions from anywhere in the country.</p>
             </div>
           </article>
           <article>
             <div class="item">
-              <img src="./assets/img/sunbed.svg" width="40">
+              <img src="./assets/img/sunbed.svg" alt="Icon" width="40">
               <h4>4- RELAX:</h4>
               <p>Once everything get approved. You can now relax. You can check out our blog to see what we recomend when house hunting.</p>
             </div>
@@ -134,9 +137,9 @@
             <a href="#">ABOUT US</a>
             <a href="#">ADVERTISE</a>
           </div>
-          <div class="footer-logo">
-            <img  src="./assets/img/logo-icon-white.png" alt="Placeholder">
-          </div>
+          <!-- <div class="footer-logo"> -->
+            <!-- <img  src="./assets/img/logo-icon-white.png" alt="Placeholder"> -->
+          <!-- </div> -->
           <div class="footer-buttons">
             <a href="#">FACEBOOK</a>
             <a href="#">TWITTER</a>
@@ -150,8 +153,8 @@
           <div class="subs-wrapper">
             <h4>SUBSCRIBE</h4>
             <div>
-              <input class="footer-input" type="email">
-              <button type="submit">SEND</button>
+              <input class="footer-input" type="email" placeholder="you@example.com">
+              <button class="footer-submit" type="submit">SEND</button>
             </div>
           </div>
     
@@ -163,13 +166,12 @@
     
           <div class="about-wrapper">
             <h4>ABOUT</h4>
-            <p>PrimeLocation is an online plataform that assists people to find a suitable house by simply searching by city, state, country, e.t.c. <a href="#">Learn more...</a></a></p>
+            <p>PrimeLocation is an online plataform that assists people to find a suitable house by simply searching by city, state, country, e.t.c. <a href="#">Learn more...</a></p>
           </div>
   
         </div>
 
         <div class="under-footer">
-          <div>
             <div class="footer-icons">
               <a href=""><img src="./assets/img/facebook.svg" alt="Facebook"></a>
               <a href=""><img src="./assets/img/twitter.svg" alt="Twitter"></a>
@@ -181,8 +183,6 @@
               <p>POWERED BY <span>ICONIUM DIGITAL</span>.</p>
               <p>LOVE AND AWESOMENESS.</p>
             </div>
-          </div>
-
         </div>
       </div>
     </footer>
