@@ -136,7 +136,7 @@ body {
   line-height: 23px;
 }
 
-.item h4 {
+.item-title {
   font-weight: bolder;
   margin-bottom: 10px;
 }
