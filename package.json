@@ -1,0 +1,28 @@
+{
+  "name": "capstone-one",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "scripts": {
+    "light": "npx hint .",
+    "style": "npx stylelint '**/*.{css,scss}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisvinicius09/capstone-one.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisvinicius09/capstone-one/issues"
+  },
+  "homepage": "https://github.com/luisvinicius09/capstone-one#readme",
+  "devDependencies": {
+    "hint": "^6.0.7",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.17.2"
+  }
+}
