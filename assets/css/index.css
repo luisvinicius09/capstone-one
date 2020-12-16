@@ -102,6 +102,7 @@ body {
   margin-top: 5px;
   padding: 5px 0 5px 0;
   border-radius: 3px;
+  text-decoration: none;
 }
 
 .search-button:hover {
@@ -175,6 +176,11 @@ body {
   margin-top: 10px;
 }
 
+.row-button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
 .row1 {
   background-color: var(--primary-color);
 }
@@ -189,12 +195,6 @@ body {
 
 /* Tablet version */
 @media only screen and (min-width: 768px) {
-  .grid-system {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-
   .row-content {
     display: flex;
     flex-direction: row-reverse;
@@ -215,5 +215,13 @@ body {
     margin-top: 25px;
     margin-left: 10px;
     padding: 5px 10px 5px 10px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .grid-system {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 }

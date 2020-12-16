@@ -24,6 +24,10 @@
   padding: 3px;
   margin: 5px 0 5px 0;
 }
+.input-container select {
+  padding: 3px;
+  margin: 5px 0 5px 0;
+}
 
 .input-container label {
   color: grey;
@@ -53,11 +57,11 @@
 }
 
 .main-submit {
-  background-color: #0e2a72;
+  background-color: #457db4;
 }
 
 .clear-button {
-  background-color: #efcd9e;
+  background-color: #e3a54d;
 }
 
 .main-submit,
@@ -93,8 +97,9 @@
 }
 
 .item img {
-  width: 300px;
-  height: 300px;
+  min-width: 150px;
+  max-width: 300px;
+  max-height: 300px;
   object-fit: cover;
 }
 
@@ -110,7 +115,7 @@
   }
 
   .input-container {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
   }
 
@@ -129,7 +134,11 @@
 @media only screen and (min-width: 1024px) {
   .grid-system {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .input-container {
+    flex-direction: row;
   }
 }

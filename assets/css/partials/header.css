@@ -55,10 +55,6 @@
     align-items: center;
   }
 
-  .h-text {
-    display: inline;
-  }
-
   .logo-container {
     margin: 0;
     padding: 0 20px 0 20px;
@@ -66,5 +62,11 @@
 
   .button-container {
     margin: 0 20px 0 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .h-text {
+    display: inline;
   }
 }
