@@ -8,7 +8,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
-#map {
+.map {
   height: 400px;
   width: 80%;
   margin: 0 auto 30px auto;
