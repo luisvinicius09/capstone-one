@@ -2,11 +2,11 @@
 
 # PrimeLocation (Captone Project)
 
-> This is the capstone project for the HTML & CSS module, which is based on a directory of schools.
+> This is a house renting website for the capstone project for the HTML & CSS module, which is based on a directory of schools.
 
 ![screenshot](./app_screenshot.png)
 
-<!-- Additional description about the project and its features. -->
+In this repository you can find the pages build for a house/apartment renting site. One is the landing page, one is the results for the search and one for the details of the house. Everything is responsive for mobile, tablet & desktop screens. There a lot of room for improvement, feel free to fork it/donwload it and make your own changes.
 
 ## Built With
 
