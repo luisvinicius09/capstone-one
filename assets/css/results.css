@@ -24,6 +24,7 @@
   padding: 3px;
   margin: 5px 0 5px 0;
 }
+
 .input-container select {
   padding: 3px;
   margin: 5px 0 5px 0;
@@ -134,7 +135,7 @@
 @media only screen and (min-width: 1024px) {
   .grid-system {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
 

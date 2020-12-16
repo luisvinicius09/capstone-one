@@ -2,7 +2,7 @@
 
 # PrimeLocation (Captone Project)
 
-> This is the capstone project for the html & CSS module, which is based on a directory of schools.
+> This is the capstone project for the HTML & CSS module, which is based on a directory of schools.
 
 ![screenshot](./app_screenshot.png)
 
@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://luisvinicius09.github.io/capstone-one/)
+[Live Demo](https://luisvinicius09.github.io/capstone-one/)
 
 
 ## Getting Started
